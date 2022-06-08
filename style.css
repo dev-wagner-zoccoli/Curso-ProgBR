@@ -1,7 +1,12 @@
 body{
     font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: right;
+    text-align: left;
     color: rgb(226, 226, 226);
+}
+
+#obrigado{
+    margin: 45px;
+    color: rgb(39, 39, 39);
 }
 
 #cardbox{
@@ -54,6 +59,7 @@ body{
 
 .socialmedia{
     flex: 70%;
+    text-align: right;
 
 }
 
