@@ -1,0 +1,67 @@
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: right;
+    color: rgb(226, 226, 226);
+}
+
+#cardbox{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    margin: 45px;
+
+    background-image: url(./Assets/pc_screen_bg.png);
+    background-size: cover;
+    box-shadow: 4px 4px 5px rgb(44, 44, 44);
+    box-sizing: content-box;
+}
+
+.wagner{
+    font-size: 20px;
+}
+
+#cardmargin{
+    flex: auto;
+    height: 160px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+    /* border: 1px;
+    border-style: solid;
+    border-color: black;  */
+}
+
+.row01{
+    display: flex;
+}
+
+.logo{
+    margin-top: -5px;
+    margin-left:  -10px;
+    
+    flex: 30%;
+    background-image: url(./Assets/wz_nobg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ul{
+    list-style: none;
+}
+
+.socialmedia{
+    flex: 70%;
+
+}
+
+.links{
+    color: inherit;
+    text-decoration: none;
+}
+
+.links:visited{
+    color: inherit;
+}
